@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Frontend Developer 홍길동의 개발자 포트폴리오">
+  <title>홍길동 | Frontend Developer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav">
+      <a class="logo" href="#top" aria-label="홈으로 이동">홍길동</a>
+      <div class="nav-links" aria-label="주요 메뉴">
+        <a href="#skills">기술</a>
+        <a href="#projects">프로젝트</a>
+        <a href="#experience">이력</a>
+        <a href="#contact">연락처</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero section">
+      <div class="hero-content">
+        <p class="eyebrow">Frontend Developer</p>
+        <h1>사용자 경험과 유지보수성을 함께 고민하는 개발자, 홍길동입니다.</h1>
+        <p class="hero-copy">
+          제품의 목적을 이해하고, 읽기 쉬운 코드와 세심한 인터페이스로
+          더 나은 웹 경험을 만드는 데 집중합니다.
+        </p>
+        <div class="hero-actions">
+          <a class="button primary" href="#projects">프로젝트 보기</a>
+          <a class="button secondary" href="#contact">연락하기</a>
+        </div>
+      </div>
+
+      <div class="hero-visual" aria-label="개발 워크스페이스 그래픽">
+        <div class="browser-window">
+          <div class="window-bar">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="code-panel">
+            <p><span class="code-muted">const</span> portfolio = {</p>
+            <p>&nbsp;&nbsp;role: <span>'Frontend Developer'</span>,</p>
+            <p>&nbsp;&nbsp;focus: <span>'UX & Maintainability'</span>,</p>
+            <p>&nbsp;&nbsp;status: <span>'Open to opportunities'</span></p>
+            <p>};</p>
+          </div>
+        </div>
+        <div class="metric-card">
+          <strong>3+</strong>
+          <span>Featured Projects</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section intro" aria-labelledby="intro-title">
+      <div>
+        <p class="eyebrow">About</p>
+        <h2 id="intro-title">문제를 구조화하고, 사용자가 체감하는 품질을 높입니다.</h2>
+      </div>
+      <p>
+        복잡한 요구사항을 명확한 화면과 흐름으로 풀어내는 일을 좋아합니다.
+        협업 과정에서는 의도를 잘 기록하고, 변경에 강한 컴포넌트와 인터페이스를
+        설계하려고 노력합니다. 이 문구는 실제 소개문으로 자유롭게 교체하세요.
+      </p>
+    </section>
+
+    <section class="section" id="skills" aria-labelledby="skills-title">
+      <div class="section-heading">
+        <p class="eyebrow">Skills</p>
+        <h2 id="skills-title">기술 스택</h2>
+      </div>
+      <div class="skill-grid">
+        <article class="skill-card">
+          <h3>Frontend</h3>
+          <p>HTML, CSS, JavaScript, TypeScript, React</p>
+        </article>
+        <article class="skill-card">
+          <h3>UI Engineering</h3>
+          <p>Responsive Layout, Accessibility, Design System</p>
+        </article>
+        <article class="skill-card">
+          <h3>Workflow</h3>
+          <p>Git, GitHub, Code Review, Documentation</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <div class="section-heading">
+        <p class="eyebrow">Projects</p>
+        <h2 id="projects-title">대표 프로젝트</h2>
+      </div>
+      <div class="project-grid">
+        <article class="project-card">
+          <div class="project-topline">
+            <h3>Project One</h3>
+            <span>Web App</span>
+          </div>
+          <p>
+            사용자의 핵심 작업을 더 빠르게 완료할 수 있도록 정보 구조와
+            반응형 UI를 개선한 프로젝트 설명 자리입니다.
+          </p>
+          <div class="tags">
+            <span>React</span>
+            <span>TypeScript</span>
+            <span>UX</span>
+          </div>
+          <a href="#" aria-label="Project One GitHub 링크">GitHub 링크 교체</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <h3>Project Two</h3>
+            <span>Dashboard</span>
+          </div>
+          <p>
+            데이터를 한눈에 비교하고 탐색할 수 있도록 카드, 표, 필터 흐름을
+            정리한 대시보드 프로젝트 설명 자리입니다.
+          </p>
+          <div class="tags">
+            <span>JavaScript</span>
+            <span>CSS</span>
+            <span>Data UI</span>
+          </div>
+          <a href="#" aria-label="Project Two GitHub 링크">GitHub 링크 교체</a>
+        </article>
+
+        <article class="project-card">
+          <div class="project-topline">
+            <h3>Project Three</h3>
+            <span>Portfolio</span>
+          </div>
+          <p>
+            정적 페이지를 GitHub Pages에 배포하고, 콘텐츠를 쉽게 수정할 수 있게
+            구성한 개인 웹사이트 프로젝트 설명 자리입니다.
+          </p>
+          <div class="tags">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>GitHub Pages</span>
+          </div>
+          <a href="#" aria-label="Project Three GitHub 링크">GitHub 링크 교체</a>
+        </article>
+      </div>
+    </section>
+
+    <section class="section timeline-section" id="experience" aria-labelledby="experience-title">
+      <div class="section-heading">
+        <p class="eyebrow">Experience</p>
+        <h2 id="experience-title">경력과 교육</h2>
+      </div>
+      <div class="timeline">
+        <article>
+          <span>2025 - 현재</span>
+          <h3>Frontend Developer</h3>
+          <p>제품 화면 개발, UI 컴포넌트 개선, 사용자 흐름 최적화 경험을 적는 자리입니다.</p>
+        </article>
+        <article>
+          <span>2024</span>
+          <h3>Web Development Program</h3>
+          <p>웹 표준, JavaScript, 협업 방식, 프로젝트 제작 경험을 적는 자리입니다.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">Contact</p>
+        <h2 id="contact-title">함께 만들 기회를 기다리고 있습니다.</h2>
+        <p>아래 링크를 실제 연락처와 프로필 주소로 교체하세요.</p>
+      </div>
+      <div class="contact-links">
+        <a href="mailto:hello@example.com">hello@example.com</a>
+        <a href="https://github.com/username">GitHub</a>
+        <a href="https://www.linkedin.com/in/username">LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 홍길동. Built for GitHub Pages.</p>
+  </footer>
+</body>
+</html>
